@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["esnext"],
+    "module": "commonjs",
+
+    "strict": true,
+    "skipLibCheck": true,
+
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  },
+
+  "include": ["**/*.ts", "**/*.d.ts"]
+}
